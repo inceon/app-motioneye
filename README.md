@@ -1,4 +1,9 @@
-# Home Assistant Community App: motionEye
+# motionEye Optimized for Home Assistant
+
+This fork installs the playback-optimized version from `inceon/motioneye`.
+See [installation and migration instructions](INSTALL_OPTIMIZED.md).
+
+The upstream app documentation follows below.
 
 [![GitHub Release][releases-shield]][releases]
 ![Project Stage][project-stage-shield]

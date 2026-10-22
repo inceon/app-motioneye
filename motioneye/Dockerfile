@@ -7,7 +7,8 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Setup base
 ARG MOTION_VERSION="4.7.1"
-ARG MOTIONEYE_VERSION="0.44.0"
+ARG MOTIONEYE_REPOSITORY="inceon/motioneye"
+ARG MOTIONEYE_VERSION="97165df7077b6c3ddeae6f63b1658c06bed32034"
 # hadolint ignore=DL3003
 RUN \
     apk add --no-cache --virtual .build-dependencies \
@@ -59,7 +60,7 @@ RUN \
     && make install \
     \
     && pip install --no-cache-dir \
-        "https://github.com/motioneye-project/motioneye/archive/${MOTIONEYE_VERSION}.tar.gz" \
+        "https://github.com/${MOTIONEYE_REPOSITORY}/archive/${MOTIONEYE_VERSION}.tar.gz" \
     \
     && apk del --no-cache --purge .build-dependencies \
     && rm -f -r /tmp/*

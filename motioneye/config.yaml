@@ -1,9 +1,9 @@
 ---
-name: motionEye
-version: dev
+name: motionEye Optimized
+version: 0.45.0-optimized.1
 slug: motioneye
 description: Simple, elegant and feature-rich CCTV/NVR for your cameras
-url: https://github.com/hassio-addons/app-motioneye
+url: https://github.com/inceon/app-motioneye
 ingress: true
 ingress_port: 0
 ingress_stream: true

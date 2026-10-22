@@ -1,9 +1,11 @@
 # motionEye Optimized for Home Assistant
 
 This fork builds motionEye from `inceon/motioneye`, pinned to commit
-`97165df7077b6c3ddeae6f63b1658c06bed32034`. It includes movie-player cleanup,
+`40b6708ac9cb10443d9a8fa4847fbd63b588be05`. It includes movie-player cleanup,
 nonblocking and atomic previews, thumbnail timeouts, background MP4 faststart,
-and content-based cache invalidation for the player script.
+and content-based cache invalidation for the player script. Version
+`0.45.0-optimized.2` also adds FPS-based snapshot scheduling, hidden-tab pauses,
+correct FPS reporting, touch sliders, and responsive settings and dialogs.
 
 ## Publish and install
 

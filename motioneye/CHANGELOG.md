@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.45.0-optimized.3
+
+- Add an optional Send Videos switch to Telegram camera notifications.
+- Send each completed recording to Telegram: MP4 as video, other formats as files.
+- Reject recordings larger than Telegram's 50 MB upload limit with a clear log message.
+- Add Ukrainian and English translations for the video notification setting.
+
 ## 0.45.0-optimized.2
 
 - Schedule camera snapshots at the configured FPS and pause requests in hidden tabs.

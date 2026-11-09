@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.45.0-optimized.5
+
+- Update the pinned motionEye source to 92e25e2a with upstream updates.
+- Preserve camera UI optimizations and Telegram video notifications.
+- Include the Ruff lint and formatting fixes.
+
 ## 0.45.0-optimized.4
 
 - Merge upstream app updates through dc6bb99.

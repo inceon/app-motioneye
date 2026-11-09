@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.45.0-optimized.4
+
+- Merge upstream app updates through dc6bb99.
+- Update the Home Assistant base image to 21.0.10.
+- Update Python to 3.14.10-r1, FFmpeg to 8.1.3-r0, curl-dev to 8.23.0-r0,
+  and rsync to 3.5.2-r1.
+- Preserve the optimized motionEye source and Telegram video notifications.
+
 ## 0.45.0-optimized.3
 
 - Add an optional Send Videos switch to Telegram camera notifications.

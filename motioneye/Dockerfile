@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base:21.0.9
+ARG BUILD_FROM=ghcr.io/hassio-addons/base:21.0.10
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -15,8 +15,8 @@ RUN \
         autoconf=2.73-r0 \
         automake=1.18.1-r1 \
         build-base=0.5-r4 \
-        curl-dev=8.22.0-r0 \
-        ffmpeg-dev=8.1.2-r0 \
+        curl-dev=8.23.0-r0 \
+        ffmpeg-dev=8.1.3-r0 \
         gettext-dev=1.0-r0 \
         git=2.54.0-r0 \
         jpeg-dev=9f-r0 \
@@ -25,13 +25,13 @@ RUN \
         libwebp-dev=1.6.0-r0 \
         linux-headers=7.0.0-r1 \
         musl-dev=1.2.6-r3 \
-        python3-dev=3.14.8-r0 \
+        python3-dev=3.14.10-r1 \
         v4l-utils-dev=1.32.0-r1 \
     \
     && apk add --no-cache \
         cifs-utils=7.5-r1 \
-        ffmpeg-libs=8.1.2-r0 \
-        ffmpeg=8.1.2-r0 \
+        ffmpeg-libs=8.1.3-r0 \
+        ffmpeg=8.1.3-r0 \
         libintl=1.0-r0 \
         libjpeg-turbo=3.1.3-r0 \
         libjpeg=9f-r0 \
@@ -40,8 +40,8 @@ RUN \
         mosquitto-clients=2.1.2-r1 \
         nginx=1.30.6-r0 \
         py3-pip=26.1.2-r0 \
-        python3=3.14.8-r0 \
-        rsync=3.5.0-r0 \
+        python3=3.14.10-r1 \
+        rsync=3.5.2-r1 \
         v4l-utils=1.32.0-r1 \
     \
     && curl -J -L -o /tmp/motion.tar.gz \
